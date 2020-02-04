@@ -64,9 +64,15 @@ public class Lesson11to12_SetMap {
      * 3. Сортируем по имени и возрасту
      * 4. Возвращаем последнего пользователя
      */
+
+
+    public boolean compare(User left, User right) {
+        return (left.getName() == right.getName()) && (left.getAge() == right.getAge());
+    }
+
+
     public static User task1(Collection<User> source) {
-        // свой код нужно писать тут
-        // следующую строку можно удалять
+
 
         return null;
     }

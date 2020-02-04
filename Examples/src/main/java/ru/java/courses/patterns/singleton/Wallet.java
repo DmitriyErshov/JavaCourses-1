@@ -2,7 +2,7 @@ package ru.java.courses.patterns.singleton;
 
 public class Wallet {
 
-    private static Wallet instance;
+    private static Wallet instance; //instance - статичное поле
 
     public static Wallet getInstance() {
         if (instance == null) {

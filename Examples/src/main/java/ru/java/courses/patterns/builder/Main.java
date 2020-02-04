@@ -11,7 +11,7 @@ public class Main {
 
         // calculate
 
-                bb.coverColor("Желтый")
+         bb.coverColor("Желтый")
                 .annotation("Нету")
                 .price(123.45)
                 .quantity(100)

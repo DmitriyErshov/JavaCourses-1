@@ -51,7 +51,7 @@ public class Lesson4_FlowControl {
      */
     public static int task2(int i, int k, char operation) {
         switch (operation){
-            case '+':
+        case '+':
             return i + k;
         case '-':
             return i - k;
@@ -62,7 +62,8 @@ public class Lesson4_FlowControl {
             return i / k;
             }else{
             return 0;
-        } case '%':
+        }
+        case '%':
             return i - (i / k) * k;
         }
         return 0;

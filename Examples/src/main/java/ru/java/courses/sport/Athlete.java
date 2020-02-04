@@ -4,7 +4,7 @@ public class Athlete {
 
     private String name;
 
-    private int pesonalNumber;
+    private int personalNumber;
 
     private boolean active;
 
@@ -29,12 +29,12 @@ public class Athlete {
         this.name = newName;
     }
 
-    public int getPesonalNumber() {
-        return pesonalNumber;
+    public int getPersonalNumber() {
+        return personalNumber;
     }
 
-    public void setPesonalNumber(int pesonalNumber) {
-        this.pesonalNumber = pesonalNumber;
+    public void setPersonalNumber(int personalNumber) {
+        this.personalNumber = personalNumber;
     }
 
     public boolean isActive() {

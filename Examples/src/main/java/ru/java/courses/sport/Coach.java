@@ -13,12 +13,19 @@ public class Coach {
         if (name == null || name.isEmpty()) {
             throw new IllegalArgumentException("У спортсмена всегда должно быть имя!");
         }
-        this.name = name;
+        else{
+            this.name = name;
+        }
+
     }
 
     public Coach(String name, int experience) {
-        this(name);
-        this.experience = experience;
+        if (name == null || name.isEmpty()) {
+            throw new IllegalArgumentException("У спортсмена всегда должно быть имя!");
+        }
+        //this(name);
+
+
     }
 
     public String getName() {
@@ -26,6 +33,9 @@ public class Coach {
     }
 
     public void setName(String name) {
+        if (name == null || name.isEmpty()) {
+            throw new IllegalArgumentException("У спортсмена всегда должно быть имя!");
+        }
         this.name = name;
     }
 

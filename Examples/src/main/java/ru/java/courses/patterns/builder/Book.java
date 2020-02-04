@@ -1,7 +1,8 @@
 package ru.java.courses.patterns.builder;
 
-public class Book {
+ public class Book {
 
+    // POJO простой класс с бдэкджеком и геттерами
     private String author;
 
     private String name;

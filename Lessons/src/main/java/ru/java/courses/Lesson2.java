@@ -37,7 +37,7 @@ class Lesson2 {
             init.insert(i,temp); i++;
             init.insert(i,'.'); i++;
         }
-        return init;
+        return fullName;
     }
 
 }
